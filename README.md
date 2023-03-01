@@ -2,7 +2,7 @@
 
 **Programmers :shipit:**: Zakaria Abdelmoiz DAHI from the University of Malaga, Spain. 
 
-**About:** This repositiory contains the implementation in [1] that studies the influence of the mapping functions when handling the binary antenna placement using a conitnuous swarm algorithm.
+**About:** This repositiory contains the implementation in [1] that studies the influence of the mapping functions when handling the binary antenna placement using a conitnuous swarm algorithm. We use instances of 14ç to 1000 antennas (representing the city of Malga, Spain) and three types of antennas (Omnidirectional, directional and Squared).
 
 - [1] **Z.A. DAHI**, C. Mezioud, A. Draa, On the efficiency of the binary flower pollination algorithm: Application on the antenna positioning problem, Applied Soft  Computing, Volume 47, 2016, Pages 395-414, SSN 1568-4946, https://doi.org/10.1016/j.asoc.2016.05.051.
 
@@ -22,7 +22,11 @@
     - `Normalised`: This folder contains the variant using `Normalisation` mapping technique.
     - `Quantum`: This folder contains the variant using `Quantum Inspiration`.
     - `Sigmoid`: This folder contains the variant using `Sigmoid` mapping technique.
-- `PBIL`: This folder contains the code of the `Populatio-Based Incremental Learning`.    
+- `PBIL`: This folder contains the code of the `Populatio-Based Incremental Learning`. 
+
+- `Results`: 
+    - `Graphical`: the results will be automatically stored as `gif` figures.
+    - `Nurmerical`: the results will be stored as `Excel` files with name as `instance_shape.xls`, where `instance` is the size of the benchmarks (i.e. the number of candidate Antennas) and `shape` is the shape of the antenna being using. The size ranges from 149 to 1000 candidate antennas, while for the shapes we use omnidirectional, directional and rectangular. 
         
 ## **Demo :movie_camera:**
     
