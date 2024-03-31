@@ -1,6 +1,6 @@
 # Quick Description
 
-**Programmers :shipit:**: Zakaria Abdelmoiz DAHI from the University of Malaga, Spain. 
+**Programmers :shipit:**: Zakaria Abdelmoiz DAHI. 
 
 **About:** This repositiory contains the implementation in [1] that studies the influence of the mapping functions when handling the binary antenna placement using a conitnuous swarm algorithm. We use instances of 14ç to 1000 antennas (representing the city of Malga, Spain) and three types of antennas (Omnidirectional, directional and Squared).
 
